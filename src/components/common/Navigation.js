@@ -1,11 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router';
+import React from 'react'
+import { Link } from 'react-router'
 
-export default class Navigation extends React.Component{
-  static contextTypes = {
-    user: React.PropTypes.object
-  };
-  render(){
+export default class Navigation extends React.Component {
+
+  render () {
     return (
       <div className="navbar navbar-inverse navbar-sticky navbar-static-top">
         <div className="container">
@@ -24,6 +22,6 @@ export default class Navigation extends React.Component{
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
